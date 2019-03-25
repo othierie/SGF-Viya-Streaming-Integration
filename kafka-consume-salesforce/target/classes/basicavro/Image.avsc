@@ -1,0 +1,11 @@
+{"namespace": "be.deloitte.kafka",
+  "type": "record",
+  "name": "Image",
+  "fields": [
+      {"name": "id" , "type": "string"}
+      {"name": "timestamp", "type": { "type": "long", "logicalType": "timestamp-millis" }},
+      {"name": "numOfBoats", "type": "int"},
+      {"name": "occupancyRate", "type": "double"},
+      {"name": "image", "type" : "string"}
+  ]
+ }

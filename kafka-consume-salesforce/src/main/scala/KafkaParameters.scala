@@ -1,0 +1,15 @@
+object KafkaParameters {
+  val KAFKA_BROKERS = "xx.xxx.xxx.xxx:9092"
+  val ZOOKEEPER = "xx.xxx.xxx.xxx:2181"
+  val SCHEMA_URL = "http://xx.xxx.xxx.xxx:8080"
+  val TEST_TOPIC_NAME = "test3"
+  val DELOITTE_KAFKA_TOPIC = "deloitteKafka"
+  val GROUP_ID = "salesforce"
+  val KEY_SERIALIZER = "org.apache.kafka.common.serialization.StringSerializer"
+  val KEY_DESERIALIZER = "org.apache.kafka.common.serialization.StringDeserializer"
+  val MESSAGE_STRING_SERIALIZER = "org.apache.kafka.common.serialization.StringSerializer"
+  val MESSAGE_STRING_DESERIALIZER = "org.apache.kafka.common.serialization.StringDeserializer"
+  val MESSAGE_AVRO_SERIALIZER = "io.confluent.kafka.serializers.KafkaAvroSerializer"
+  val MESSAGE_AVRO_DESERIALIZER = "io.confluent.kafka.serializers.KafkaAvroDeserializer"
+  val ACKS_POLICY = "all"
+}
